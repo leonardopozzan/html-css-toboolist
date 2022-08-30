@@ -23,22 +23,29 @@ header{
 .background_white{
     background-color: white;
 }
+.space_margin_1{
+    margin-top: 10px;
+}
 
 /* caratteristiche logo & intestazione */
 .logo_intestazione{
     margin: 15px 30px;
+    vertical-align: middle;
+
 }
 .nome_sito_intestazione{
     font-size: 50px;
     font-weight: bolder;
+    vertical-align: middle;
 }
 
 /* caratteristiche barra dei bottoni */
 #barra_bottoni{
-    margin-bottom: 5px;;
+    margin-bottom: 5px;
+    border-radius: 10px 10px 0 0;
 }
 nav button{
-    font-size: 18px;
+    font-size: 15px;
     padding: 5px;
     margin: 5px;
     border-radius: 8px;
@@ -53,3 +60,83 @@ nav button{
     color: lightgray;
     border-color: lightgray;;
 }
+
+/* caratteristiche della lista things to do */
+#corpo_lista{
+    padding-top: 25px;
+}
+.nome_sezione{
+    font-size: 30px;
+
+}
+/* .arrow_down{
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom: 10px solid black;
+  } */
+ 
+  .v_green::before{
+    content: "";
+    background-image: url('../img/vgreen.png');
+    background-size: 20px 20px;
+    width: 20px; 
+    height: 20px;
+    display: inline-block;
+  }
+  .x_red::before{
+    content: "";
+    background-image: url('../img/xred.png');
+    background-size: 20px 20px;
+    width: 20px; 
+    height: 20px;
+    display: inline-block;
+  }
+  .editional::after{
+    content: "Editional";
+    background-color: rgb(61, 179, 219);
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 10px;
+    color: white;
+  }
+  .q1goals::after{
+    content: "Q1 Goals";
+    background-color: rgb(130, 46, 179);
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 10px;
+    color: white;
+  }
+  .recruiting::after{
+    content: "Recruiting";
+    background-color: rgb(19, 138, 13);
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 10px;
+    color: white;
+  }
+  .mobile::after{
+    content: "Mobile";
+    background-color: rgb(231, 108, 47);
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 10px;
+    color: white;
+  }
+  .website::after{
+    content: "Website";
+    background-color: rgb(161, 59, 180);
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 10px;
+    color: white;
+  }
+  .sales::after{
+    content: "Sales";
+    background-color: rgb(155, 202, 84);
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 10px;
+    color: white;
+  }
