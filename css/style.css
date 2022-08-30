@@ -1,0 +1,23 @@
+/* caratteristiche generali */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.inline_block{
+    display: inline-block;
+}
+
+/* caratteristiche logo & intestazione */
+.logo_intestazione{
+    margin: 15px 30px;
+    height: 100px;
+}
+.nome_sito_intestazione{
+    font-size: 100px;
+    font-weight: bolder;
+}
+/* .prova{
+    line-height: 130px;;
+} */
