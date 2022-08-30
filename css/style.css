@@ -5,19 +5,51 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+header{
+    margin-bottom:35px;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    padding: 10px 40px;
+    background-color: white;
+}
 .inline_block{
     display: inline-block;
+}
+.background_lightgray{
+    background-color: rgb(241, 241, 241);
+}
+.background_white{
+    background-color: white;
 }
 
 /* caratteristiche logo & intestazione */
 .logo_intestazione{
     margin: 15px 30px;
-    height: 100px;
 }
 .nome_sito_intestazione{
-    font-size: 100px;
+    font-size: 50px;
     font-weight: bolder;
 }
-/* .prova{
-    line-height: 130px;;
-} */
+
+/* caratteristiche barra dei bottoni */
+#barra_bottoni{
+    margin-bottom: 5px;;
+}
+nav button{
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+}
+.button_1{
+    background-color: rgb(61, 179, 219);
+    color: white;
+    border-color: rgb(61, 179, 219);
+}
+.button_2{
+    background-color: white;
+    color: lightgray;
+    border-color: lightgray;;
+}
