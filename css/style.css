@@ -72,7 +72,8 @@ nav button{
 .nome_sezione{
     font-size: 25px;
 }
-.icon_type::before{
+/* icone x e v negli item della lista */
+.type_icon_x_v::before{
     content: "";
     background-size: 20px 20px;
     width: 20px; 
@@ -82,37 +83,38 @@ nav button{
 }
 .v_green::before{
     background-image: url('../img/vgreen.png');
-  }
-  .x_red::before{
-    background-image: url('../img/xred.png');
-  }
-  .tag_list_type::after{
-    padding: 5px;
-    font-size: 12px;
-    border-radius: 10px;
-    color: white;
-  }
-  .editional::after{
-    content: "Editional";
-    background-color: rgb(61, 179, 219);
-  }
-  .q1goals::after{
-    content: "Q1 Goals";
-    background-color: rgb(130, 46, 179);
-  }
-  .recruiting::after{
-    content: "Recruiting";
-    background-color: rgb(19, 138, 13);
-  }
-  .mobile::after{
-    content: "Mobile";
-    background-color: rgb(231, 108, 47);
-  }
-  .website::after{
-    content: "Website";
-    background-color: rgb(161, 59, 180);
-  }
-  .sales::after{
-    content: "Sales";
-    background-color: rgb(155, 202, 84);
-  }
+}
+.x_red::before{
+  background-image: url('../img/xred.png');
+}
+/* etichette degli item della lista */
+.type_item::after{
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 10px;
+  color: white;
+}
+.editional::after{
+  content: "Editional";
+  background-color: rgb(61, 179, 219);
+}
+.q1goals::after{
+  content: "Q1 Goals";
+  background-color: rgb(130, 46, 179);
+}
+.recruiting::after{
+  content: "Recruiting";
+  background-color: rgb(19, 138, 13);
+}
+.mobile::after{
+  content: "Mobile";
+  background-color: rgb(231, 108, 47);
+}
+.website::after{
+  content: "Website";
+  background-color: rgb(161, 59, 180);
+}
+.sales::after{
+  content: "Sales";
+  background-color: rgb(155, 202, 84);
+}
