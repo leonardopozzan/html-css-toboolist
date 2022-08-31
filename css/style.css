@@ -73,6 +73,10 @@ nav button{
 .nome_sezione{
     font-size: 23px;
 }
+.list div:first-child::before{
+    content: "\25BC";
+    font-size: 15px;
+}
 
 /* icone x e v negli item della lista */
 .v_green::before, .x_red::before{
