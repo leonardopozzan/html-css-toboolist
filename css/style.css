@@ -5,15 +5,14 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-header{
-    margin-bottom:35px;
-}
 .container{
     width: 70%;
     margin: auto;
     padding: 10px 40px;
     background-color: white;
 }
+
+/* colori, margini e personalizzazioni semplici */
 .inline_block{
     display: inline-block;
 }
@@ -23,11 +22,12 @@ header{
 .background_white{
     background-color: white;
 }
-.space_margin_1{
-    margin-top: 10px;
+.list div:nth-of-type(n+1){
+    margin-top: 15px;
 }
-.space_margin_2{
-    margin-top: 30px;
+.list div:first-child{
+    margin-top: 35px;
+    display:inline-block;
 }
 
 /* caratteristiche logo & intestazione */
@@ -37,18 +37,19 @@ header{
 
 }
 .nome_sito_intestazione{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bolder;
     vertical-align: middle;
 }
 
 /* caratteristiche barra dei bottoni */
 #barra_bottoni{
+    margin-top: 35px;
     margin-bottom: 5px;
     border-radius: 10px 10px 0 0;
 }
 nav button{
-    font-size: 12px;
+    font-size: 10px;
     padding: 5px;
     margin: 5px;
     border-radius: 8px;
@@ -67,35 +68,44 @@ nav button{
 
 /* caratteristiche della lista things to do */
 #corpo_lista{
-    padding-top: 25px;
+    padding-bottom: 50px;
 }
 .nome_sezione{
-    font-size: 25px;
+    font-size: 23px;
 }
+
 /* icone x e v negli item della lista */
-.type_icon_x_v::before{
-    content: "";
-    background-size: 20px 20px;
-    width: 20px; 
-    height: 20px;
+.v_green::before, .x_red::before{
+    font-size: 12px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid;
+    border-radius: 50%;
     display: inline-block;
+    text-align: center;
+    line-height: 16px;
     vertical-align: middle;
 }
 .v_green::before{
-    background-image: url('../img/vgreen.png');
+    content: "\2713";
+    color:lightgreen;
 }
 .x_red::before{
-  background-image: url('../img/xred.png');
+    content: "x";
+    color: red;
 }
+
 /* etichette degli item della lista */
-.type_item::after{
+.editorial::after, .q1goals::after, .recruiting::after, 
+.mobile::after, .website::after, .sales::after
+{
   padding: 5px;
-  font-size: 12px;
+  font-size: 10px;
   border-radius: 10px;
   color: white;
 }
-.editional::after{
-  content: "Editional";
+.editorial::after{
+  content: "Editorial";
   background-color: rgb(61, 179, 219);
 }
 .q1goals::after{
