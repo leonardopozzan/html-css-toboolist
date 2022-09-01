@@ -22,7 +22,7 @@
 .background_white{
     background-color: white;
 }
-.list div:nth-of-type(n+1){
+.list div:nth-of-type(n+2){
     margin-top: 15px;
 }
 .list div:first-child{
